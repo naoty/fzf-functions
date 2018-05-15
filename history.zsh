@@ -3,4 +3,5 @@ fzf_history() {
     echo $cmd
     eval $cmd
 }
+zle -N fzf_history
 
